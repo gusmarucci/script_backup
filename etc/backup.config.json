@@ -1,0 +1,17 @@
+{
+    "remetente": "Script de Backup Oliver IT <suporte@olivernetwork.com.br",
+    "smtp_host": "outbound.mailhop.org",
+    "smtp_porta": 587,
+    "smtp_user": "olivernetwork",
+    "smtp_senha": "qX3ZBQR6gKDe$35",
+    "destinatarios": [
+        "gustavo@olivernetwork.com.br",
+        "joseroberto@olivernetwork.com.br"
+    ],
+    "template": "default.html",
+    "backup": {
+        "drive": "D:",
+        "pasta": "\\Virtual Disks",
+        "destino": "\\Backup Oliver"
+    }
+}
