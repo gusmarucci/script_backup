@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
     '''
     start_running = time()
-    print("Script de backup Oliver IT")
+    print("Iniciando o Script de Backup")
 
     print("Lendo o arquivo de configuração...")
     try:
@@ -173,14 +173,3 @@ if __name__ == "__main__":
         exit(1, f"A copia falhou. A mensagem foi: {str(e)}")
 
     exit(0, "Backup realizado com sucesso")
-
-
-    
-    
-    
-    
-    
-    
-    
-    #eml.send("Backup realizado com sucesso", "O backup da rede acabou de terminar e foi realizado com sucesso.")
-
